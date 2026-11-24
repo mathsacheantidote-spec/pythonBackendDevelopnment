@@ -1,0 +1,10 @@
+country_file = open("countries.txt" , "r")
+print(country_file.readable())
+# print(country_file.readline())
+# print(country_file.readline())
+# print(country_file.readline())
+# print(country_file.readline())
+# print(country_file.readlines())
+for file in country_file:
+    print(file)
+country_file.close()
