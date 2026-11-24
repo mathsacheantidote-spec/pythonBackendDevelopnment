@@ -21,6 +21,6 @@ Welcome to my Python Backend Development repository! This repo documents my lear
 
 ## 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Framework:** [e.g., FastAPI / Django / Flask]
-- **Database:** [e.g., PostgreSQL / MongoDB]
+- **Framework:** [ Django]
+- **Database:** [PostgreSQL ]
 - **Tools:** Git, Docker, Postman, Pytest
