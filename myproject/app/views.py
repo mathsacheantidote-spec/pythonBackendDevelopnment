@@ -6,7 +6,7 @@ from django.http import HttpResponse
 def index(request):
     context = {
         'name' : 'Paxil',
-        'age' :90,
+        'age' : 90,
         'nationality' : 'indian',
     }
     return render(request ,'index.html' , context)
