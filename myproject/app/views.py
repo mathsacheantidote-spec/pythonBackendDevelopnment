@@ -4,4 +4,9 @@ from django.http import HttpResponse
 
 # Create your views heres.
 def index(request):
-    return render(request ,'index.html')
+    context = {
+        'name' : 'Paxil',
+        'age' :90,
+        'nationality' : 'indian',
+    }
+    return render(request ,'index.html' , context)
